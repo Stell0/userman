@@ -271,8 +271,6 @@ class Openldap extends Auth {
 			$this->out("");
 			$this->out("Updating All Users");
 			$this->updateAllUsers();
-			$this->out("Updating All Groups");
-			$this->updateAllGroups();
 			$this->out("Updating Primary Groups");
 			$this->updatePrimaryGroups();
 			$this->out("Executing User Manager Hooks");
